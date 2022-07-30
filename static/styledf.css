@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+.boxx{
+    
+   
+   
+   display: flex;
+   flex-direction: column;
+   
+   justify-content: center;
+   align-items: center;
+   
+    
+   background-color: black;
+ 
+   
+}
+.boxxelement{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#l{
+    text-align: center;
+    
+    color: white;
+    font-size: 3rem;
+    font-family: 'Square Peg', cursive;
+}
+@media (min-width: 0px) and (max-width: 600px)
+{
+    .boxxelement
+    {
+      flex-direction: column;
+    }
+    .formdivs{
+        margin: 0px 0px;
+        margin-top: 3rem;
+    }
+}
+.formdivs{
+   border: 2px solid black;
+   margin: 9px 16px;
+   color: white;
+}
+
+    
+  
+.formimages{
+    height: 55vh;
+    width: 41vw;
+}
+.textp{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}

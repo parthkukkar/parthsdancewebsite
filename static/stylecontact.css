@@ -1,0 +1,39 @@
+
+#cform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    
+    
+    background-image: url("../static/images/bg222.jpeg");
+    background-color: #cccccc; 
+    height: 80vh;
+    background-position: center; 
+    background-size: cover; 
+  
+   
+}
+#cform #div2{
+   
+    align-self: flex-end;
+    color: white;
+    font-size: 2rem;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+#cform input{
+    width: 35%;
+    padding: 13px;
+    margin: 15px;
+    
+    font-size: 15px;
+
+}
+
+.btn{
+    padding: 5px;
+    margin: 6px 18px;
+    cursor: pointer;
+}

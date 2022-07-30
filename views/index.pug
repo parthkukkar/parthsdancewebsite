@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    title Parth's dance acaedemy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul#uolist  
+            div 
+                img(src="../static/logo.jpg", alt="")
+                
+            li 
+                a(href='/')  home 
+            li 
+                a(href='/')  services  
+            li 
+                a(href='/')  about us  
+            li 
+                a(href='/')  contact us 
+            #pk PK  
+       
+            
+    section#introsection 
+        div 
+
+            p#p1  Welcome to Parth's Dance acaedemy 
+            p#p2  Eat Sleep Dance Repeat
+       
+
+    section#ourmission 
+        h2#heading   Our mission 
+        .card 
+            h2.cheading  Be Limitless!
+            .sub-box 
+                img#i1(src="../static/l11.jpg", alt="")
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, sit.
+        .card 
+            h2.cheading  Dance is Life 
+            .sub-box 
+                img(src="../static/i2.jpg", alt="")
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione!
+        .card 
+            h2.cheading  Exceed your limits
+            .sub-box 
+                img(src="../static/i3.png", alt="")
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, earum.ite 
+
+        
+    section#sponsersSection 
+        h2 Our sponsers 
+        div.sponsers 
+            img.sponserimage(src="../static/apple2.png", alt="")
+            img.sponserimage(src="../static/google2.png", alt="")
+            img.sponserimage(src="../static/skype.png", alt="")
+            img.sponserimage(src="../static/amazon2.png", alt="")
+           
+    footer#footer   
+        | Copyrights © reserved to Parth kukkar                                                      
+
+    
+    script
+      include ../static/index.js

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Rubik+Moonrocks&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: black;
+}
+#uolist{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   margin-left: 1rem;
+
+}
+@media screen and (max-width: 648px) 
+{
+    #uolist{
+        flex-direction: column;
+    }
+    #introsection
+    {
+        background: none;
+    }
+}
+
+#uolist li a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: white;
+    font-family: 'Edu SA Beginner', cursive;
+
+    
+}
+#uolist li a:hover{
+    text-decoration: underline;
+}
+#uolist div img{
+    filter: invert(1);
+    height: 53px;
+    height: 3rem;
+    width: 2rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+#pk{
+    
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 2.5rem;
+    margin-left: auto;
+}
+
+#introsection {
+   
+    
+    
+    
+        background-image: url("../static/images/bg1.jpg");
+        background-color: #cccccc; 
+        height: 53vh;
+        background-position: center; 
+        background-size: cover; 
+      
+
+
+}
+
+#introsection div{
+    width: 31rem;
+    margin: 0px auto;
+color: wheat;}
+
+#p1{
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 30px;
+}
+#p2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin-left: 86px;
+}
+#sponsersSection {
+    background-color: black;
+    height: 50%;
+   
+
+}
+#footer{
+    
+    height: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    
+
+}
+
+#sponsersSection h2{
+    text-align: center;
+    padding-top: 21px;
+    color: white;
+    font-size: 2rem;
+}
+#ourmission{
+    border: 2px solid blue;
+ 
+    height: 50%;
+    
+    
+}
+
+
+#heading{
+   
+    text-align: center;
+    padding-top: 21px;   
+}
+#uolist div{
+   
+    color: white;
+}
+
+
+
+
+.card {
+    border: 2px solid black;
+   
+    background: black;
+    margin-right: 3rem;
+    
+    border-radius: 5px;
+    width: 300px;
+    height: 231px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardbox{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
+}
+.cheading{
+    font-size: 2em;
+text-align: center;
+color: white;
+}
+
+
+.card img{
+    height: 9em;
+    width: 10em;
+}
+.sponsers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sponserimage{
+    
+    margin-right: 4rem;
+    border-radius: 30px;
+}
+#i11{
+    height: 14em;
+   
+    width: 14em;
+}
+
+
+
+#i13{
+    width: 19rem;
+}
+#i14{
+    width: 19em;
+}
+
+

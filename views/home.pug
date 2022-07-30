@@ -1,0 +1,46 @@
+extends base.pug
+block scripts
+    script(src='../static/index.js')
+
+block style 
+    style 
+        include ../static/style.css 
+block content 
+    
+            
+    section#introsection 
+        div 
+
+            p#p1  Welcome to Parth's Dance acaedemy 
+            p#p2  Eat Sleep Dance Repeat
+       
+
+    section#ourmission 
+        h2#heading   
+        div.cardbox 
+
+            .card 
+                h2.cheading  Be Limitless!
+               
+                img#i1(src="../static/images/di1.jpg", alt="")
+                   
+            .card 
+                h2.cheading  Exceed your limits 
+                
+                img(src="../static/images/di2.jpg", alt="")
+                    
+            .card 
+                h2.cheading  Go beyond 
+                
+                img(src="../static/images/di33.jpg", alt="")
+                   
+
+        
+    section#sponsersSection 
+        h2 Our sponsers 
+        div.sponsers 
+            img.sponserimage#i11(src="../static/images/apple2.png", alt="")
+           
+            img.sponserimage#i13(src="../static/images/skype.png", alt="")
+            img.sponserimage#i14(src="../static/images/amazon2.png", alt="")
+           
